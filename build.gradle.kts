@@ -19,7 +19,8 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-	implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-server")
+	implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:3.1.4")
+	implementation("org.springframework.boot:spring-boot-starter-web:2.7.4")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
